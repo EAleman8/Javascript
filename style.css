@@ -1,0 +1,45 @@
+body {
+    background-image: url(./background.jpg);
+    background-size: cover;
+}
+
+form {
+    width: 100px;
+    margin: 40px auto;
+    border: 3px solid gray;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+}
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    max-width: 500px;
+    border-radius: 20px;
+    color: #000;
+    text-align: center; 
+    padding: 10px;
+    margin: 0 auto;
+    background-image: url(./pokeback.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    border: 1px dotted;
+    border-radius: 4px;
+}
+
+.poke-img {
+    width: 200px;
+}
